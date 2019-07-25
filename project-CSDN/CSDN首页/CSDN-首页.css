@@ -1,0 +1,3890 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-color: #eee;
+}
+body{
+	/*overflow-x: hidden;*/
+}
+.top{
+	width: 100%;
+	height: 42px;
+	text-align: center;
+	line-height: 40px;
+	border-bottom: 1px solid #ddd;
+	background-color: white;
+}
+.top *{
+	padding:0 4px;
+	background-color: white;
+}
+.part1 li:hover,.part2 span:hover,.part2 img:hover{
+	color: red;
+	cursor: pointer;
+}
+ul{
+	list-style-type: none;
+}
+.part1,.part2,.part1 li{
+	display: inline-block;
+}
+.firstpage{
+	border-bottom: 2px solid red;
+}
+.xueyuan{
+	position: relative;
+}
+.xueyuan:hover div{
+	display:block;
+}
+.school-ewm{
+	position: absolute;
+	top: 40px;
+	left: -40px;
+	padding:10px 10px 0 10px;
+	display: none;
+	z-index: 100;
+}
+.school-ewm>img{
+	width: 100px;
+	height: 100px;
+}
+.school-ewm>p{
+	color: black;
+	padding: 0px;
+	text-align: center;
+	margin-top: -12px;
+}
+.APP{
+	position: relative;
+}
+.APP:hover div{
+	display:block;
+}
+.APP-ewm{
+	position: absolute;
+	top: 40px;
+	left: -40px;
+	padding:10px 10px 0 10px;
+	display: none;
+	z-index: 100;
+}
+.APP-ewm>img{
+	width: 100px;
+	height: 100px;
+}
+.APP-ewm>p{
+	color: black;
+	padding: 0px;
+	text-align: center;
+	margin-top: -12px;
+}
+.gitchat{
+	position: relative;
+}
+.gitchat:hover div{
+	display:block;
+}
+.gitchat-ewm{
+	position: absolute;
+	top: 40px;
+	left: -40px;
+	padding:10px 10px 0 10px;
+	display: none;
+	z-index: 100;
+}
+.gitchat-ewm>img{
+	width: 100px;
+	height: 100px;
+}
+.gitchat-ewm>p{
+	color: black;
+	padding: 0px;
+	text-align: center;
+	margin-top: -12px;
+}
+.sousuokuang{
+	border-radius: 5px;
+	height: 20px;
+}
+.sousuotu{
+	position: relative;
+	top: 1px;
+	right: 28px;
+}
+aside{
+	clear: both;
+	float: left;
+	margin-left: 75px;
+	margin-top: 20px;
+	/*position: fixed;*/
+}
+aside li{
+	width: 110px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	background-color: white;
+}
+aside li:hover{
+	background-color: red;
+	color: white;
+	cursor: pointer;
+}
+.li-one{
+	background-color: red;
+	color: white;
+}
+.guanggao1-xiaochengxu{
+	position: absolute;
+	top: 50px;
+	left: 200px;
+}
+.xunlianying{
+	position: absolute;
+	top: 50px;
+	left: 970px;
+	z-index: 1;
+}
+.lunbotu{
+	width: 510px;
+	height: 210px;
+	overflow: hidden;
+	position: absolute;
+	top:155px;
+	left: 200px;
+}
+.lunbo-imghe{
+	width: 2550px;
+	animation:myani 15s linear infinite;
+}
+.lunbo-imghe>div{
+	float: left;
+}
+.lunbotu img{
+	width:510px;
+	height: 210px;
+}
+@keyframes myani{
+	0%,20%{
+		margin-left: 0;
+	}
+	30%,40%{
+		margin-left: -510px;
+	}
+	50%,60%{
+		margin-left: -1020px;
+	}
+	70%,80%{
+		margin-left: -1530px;
+	}
+	90%,100%{
+		margin-left: -2040px;
+	}
+
+}
+.tu1{
+	position: relative;
+}
+.lunbo-span1{
+	text-decoration: none;
+	background-color: rgba(255,255,255,0);
+	color: white;
+	position: absolute;
+	bottom: 40px;
+	left: 15px;
+}
+.tu2{
+	position: relative;
+}
+.lunbo-span2{
+	text-decoration: none;
+	background-color: rgba(255,255,255,0);
+	color: white;
+	position: absolute;
+	bottom: 40px;
+	left: 15px;
+}
+.tu3{
+	position: relative;
+}
+.lunbo-span3{
+	text-decoration: none;
+	background-color: rgba(255,255,255,0);
+	color: white;
+	position: absolute;
+	bottom: 40px;
+	left: 15px;
+}
+.tu4{
+	position: relative;
+}
+.lunbo-span4{
+	text-decoration: none;
+	background-color: rgba(255,255,255,0);
+	color: white;
+	position: absolute;
+	bottom: 40px;
+	left: 15px;
+}
+.tu5{
+	position: relative;
+}
+.lunbo-span5{
+	text-decoration: none;
+	background-color: rgba(255,255,255,0);
+	color: white;
+	position: absolute;
+	bottom: 40px;
+	left: 15px;
+}
+.xiaofushang{
+	width: 250px;
+	height: 100px;
+	position: absolute;
+	top: 155px;
+	left: 711px;
+	overflow: hidden;
+}
+.xiaofushang:hover img{
+	transform: scale(1.1);
+	transition: all 2s;
+}
+.xianzhuang{
+	display: inline-block;
+	color: white;
+	font-size: 15px;
+	position: absolute;
+	bottom: 7px;
+	left: 3px;
+	background-color: rgba(255,255,255,0);
+}
+.xiaofuxia{
+	width: 250px;
+	height: 100px;
+	position: absolute;
+	left: 711px;
+	top: 265px;
+	overflow: hidden;
+}
+.xiaofuxia:hover img{
+	transform: scale(1.1);
+	transition: all 2s;
+}
+.jiaosha{
+	display: inline-block;
+	color: white;
+	font-size: 15px;
+	position: absolute;
+	bottom: 7px;
+	left: 3px;
+	background-color: rgba(255,255,255,0);
+}
+.xiaolunbo{
+	width: 300px;
+	height: 200px;
+	overflow: hidden;
+	position: absolute;
+	left: 970px;
+	top: 155px;
+}
+.xiaolunbo-imghe{
+	width: 1800px;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+	/*height: 200px;*/
+	/*height: 1200px;*/
+	animation:myanitwo 18s linear infinite;
+}
+.xiaolunbo-imghe a{
+	float: left;
+}
+.xiaolunbo-imghe a,.xiaolunbo-imghe img{
+	width: 300px;
+	height: 200px;
+	display: block;
+}
+@keyframes myanitwo{
+	0%,17%{
+		margin-left: 0px;
+	}
+	22%,33%{
+		margin-left: -300px;
+	}
+	39%,50%{
+		margin-left: -600px;
+	}
+	56%,67%{
+		margin-left: -900px;
+	}
+	72%,83%{
+		margin-left: -1200px;
+	}
+	89%,100%{
+		margin-left: -1500px;
+	}
+}
+.main-content{
+	position: absolute;
+	left: 200px;
+	top: 395px;
+	width: 760px;
+}
+.main-1{
+	width: 760px;
+	height:95px;
+	position: absolute;
+}
+.main-caption{
+	color: black;
+	position: absolute;
+	left: 10px;
+	text-decoration: none;
+}
+.main-caption:hover{
+	color: red
+}
+.main-div{
+	color: #aaa;
+	width: 740px;
+	height:20px;
+	/*内部文本不换行*/
+	white-space: nowrap;
+	/*先设置溢出内容隐藏*/
+	overflow: hidden;
+	/*因为设置隐藏之后，可能最后会显示半个字，所以再进行省略号的设置*/
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 10px;
+	top: 28px;
+}
+.main-img{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	top:58px;
+}
+.main-name,.main-yuedushu,.main-pinglun{
+	color: black;
+}
+.main-1 span{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+}
+.main1-span1{
+	width: 130px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 45px;
+	top: 62px;
+}
+.main1-span2{
+	/*border: 1px solid red;*/
+	color: #aaa;
+	position: absolute;
+	top:62px;
+	left: 190px;
+}
+.main1-span3{
+	color: #aaa;
+	position: absolute;
+	top: 62px;
+	left: 243px;
+}
+.main1-span4{
+	position: absolute;
+	top: 62px;
+	right: 100px;
+}
+.main-name:hover,.main1-span2:hover,.main1-span4:hover{
+	color: #2e87ed;
+}
+.main1-span5{
+	color: #2e87ed;
+	position: absolute;
+	top: 62px;
+	right: 55px;
+}
+.main1-span6{
+	position: absolute;
+	right: 10px;
+	top:62px;
+}
+.main1-span7{
+	color: #aaa;
+}
+.main-1,.main-1 *{
+	background-color: white;
+}
+
+
+.main-2{
+	/*border: 1px solid blue; */
+	width: 760px;
+	height:95px;
+	position: absolute;
+	top: 118px;
+}
+/*.main2-caption{
+	color: black;
+	position: absolute;
+	left: 10px;
+	text-decoration: none;
+}
+.main2-caption:hover{
+	color: red
+}*/
+.main-2>div{
+	color: #aaa;
+	width: 740px;
+	height:20px;
+	/*内部文本不换行*/
+	white-space: nowrap;
+	/*先设置溢出内容隐藏*/
+	overflow: hidden;
+	/*因为设置隐藏之后，可能最后会显示半个字，所以再进行省略号的设置*/
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 10px;
+	top: 30px;
+}
+.main-2 img{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	top:58px;
+}
+.main2-name,.main2-yuedushu,.main2-pinglun{
+	color: black;
+}
+.main-2 span{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+}
+.main2-span1{
+	width: 130px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 45px;
+	top: 62px;
+}
+.main2-span2{
+	/*border: 1px solid red;*/
+	color: #aaa;
+	position: absolute;
+	top:62px;
+	left: 190px;
+}
+.main2-span3{
+	color: #aaa;
+	position: absolute;
+	top: 62px;
+	left: 243px;
+}
+.main2-span4{
+	position: absolute;
+	top: 62px;
+	right: 100px;
+}
+.main2-name:hover,.main2-span2:hover,.main2-span4:hover{
+	color: #2e87ed;
+}
+.main2-span5{
+	color: #2e87ed;
+	position: absolute;
+	top: 62px;
+	right: 55px;
+}
+.main2-span6{
+	position: absolute;
+	right: 10px;
+	top:62px;
+}
+.main2-span7{
+	color: #aaa;
+}
+.main-2,.main-2 *{
+	background-color: white;
+}
+.main-3{
+	/*border: 1px solid blue; */
+	width: 760px;
+	height:95px;
+	position: absolute;
+	top: 235px;
+}
+.main-3 img{
+	width: 120px;
+	height: 90px;
+	position: absolute;
+	left: 10px;
+}
+.main3-h3{
+	text-decoration: none;
+	color: black;
+	position: absolute;
+	left:150px;
+}
+.main3-h3:hover{
+	color: red;
+}
+.main3-span{
+	text-decoration: none;
+	color:#aaa;
+	position: absolute;
+	left:150px;
+	top: 51px;
+}
+.main-3,.main-3 *{
+	background-color: white;
+}
+.main-4{
+	/*border: 1px solid blue; */
+	width: 760px;
+	height:95px;
+	position: absolute;
+	top: 353px;
+}
+/*.main4-caption{
+	color: black;
+	position: absolute;
+	left: 10px;
+	text-decoration: none;
+}
+.main4-caption:hover{
+	color: red
+}*/
+.main-4>div{
+	color: #aaa;
+	width: 740px;
+	height:20px;
+	/*内部文本不换行*/
+	white-space: nowrap;
+	/*先设置溢出内容隐藏*/
+	overflow: hidden;
+	/*因为设置隐藏之后，可能最后会显示半个字，所以再进行省略号的设置*/
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 10px;
+	top: 30px;
+}
+.main-4 img{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	top:58px;
+}
+.main4-name,.main4-yuedushu,.main4-pinglun{
+	color: black;
+}
+.main-4 span{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+}
+.main4-span1{
+	/*border: 1px solid red;*/
+	width: 130px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 45px;
+	top: 62px;
+}
+.main4-span3{
+	color: #aaa;
+	position: absolute;
+	top: 62px;
+	left: 190px;
+}
+.main4-span4{
+	position: absolute;
+	top: 62px;
+	right: 100px;
+}
+.main4-name:hover,.main4-span2:hover,.main4-span4:hover{
+	color: #2e87ed;
+}
+.main4-span5{
+	color: #2e87ed;
+	position: absolute;
+	top: 62px;
+	right: 55px;
+}
+.main4-span6{
+	position: absolute;
+	right: 10px;
+	top:62px;
+}
+.main4-span7{
+	color: #aaa;
+}
+.main-4,.main-4 *{
+	background-color: white;
+}
+.main-5{
+	/*border: 1px solid blue; */
+	width: 760px;
+	height:95px;
+	position: absolute;
+	top: 472px;
+}
+/*.main5-caption{
+	color: black;
+	position: absolute;
+	left: 10px;
+	text-decoration: none;
+}
+.main5-caption:hover{
+	color: red
+}*/
+.main-5>div{
+	color: #aaa;
+	width: 740px;
+	height:20px;
+	/*内部文本不换行*/
+	white-space: nowrap;
+	/*先设置溢出内容隐藏*/
+	overflow: hidden;
+	/*因为设置隐藏之后，可能最后会显示半个字，所以再进行省略号的设置*/
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 10px;
+	top: 30px;
+}
+.main-5 img{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	top:58px;
+}
+.main5-name,.main5-yuedushu,.main5-pinglun{
+	color: black;
+}
+.main-5 span{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+}
+.main5-span1{
+	width: 130px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 45px;
+	top: 62px;
+}
+.main5-span2{
+	/*border: 1px solid red;*/
+	color: #aaa;
+	position: absolute;
+	top:62px;
+	left: 190px;
+}
+.main5-span3{
+	color: #aaa;
+	position: absolute;
+	top: 62px;
+	left: 275px;
+}
+.main5-span4{
+	position: absolute;
+	top: 62px;
+	right: 100px;
+}
+.main5-name:hover,.main5-span2:hover,.main5-span4:hover{
+	color: #2e87ed;
+}
+.main5-span5{
+	color: #2e87ed;
+	position: absolute;
+	top: 62px;
+	right: 55px;
+}
+.main5-span6{
+	position: absolute;
+	right: 10px;
+	top:62px;
+}
+.main5-span7{
+	color: #aaa;
+}
+.main-5,.main-5 *{
+	background-color: white;
+}
+
+
+
+
+
+
+.main-6{
+	/*border: 1px solid blue; */
+	width: 760px;
+	height:95px;
+	position: absolute;
+	top: 591px;
+}
+/*.main6-caption{
+	color: black;
+	position: absolute;
+	left: 10px;
+	text-decoration: none;
+}
+.main6-caption:hover{
+	color: red
+}*/
+.main-6>div{
+	color: #aaa;
+	width: 740px;
+	height:20px;
+	/*内部文本不换行*/
+	white-space: nowrap;
+	/*先设置溢出内容隐藏*/
+	overflow: hidden;
+	/*因为设置隐藏之后，可能最后会显示半个字，所以再进行省略号的设置*/
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 10px;
+	top: 30px;
+}
+.main-6 img{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	top:58px;
+}
+.main6-name,.main6-yuedushu,.main6-pinglun{
+	color: black;
+}
+.main-6 span{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+}
+.main6-span1{
+	width: 130px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 45px;
+	top: 62px;
+}
+.main6-span2{
+	/*border: 1px solid red;*/
+	color: #aaa;
+	position: absolute;
+	top:62px;
+	left: 190px;
+}
+.main6-span3{
+	color: #aaa;
+	position: absolute;
+	top: 62px;
+	left: 275px;
+}
+.main6-span4{
+	/*border: 1px solid red;*/
+	position: absolute;
+	top: 62px;
+	right: 142px;
+}
+.main6-name:hover,.main6-span2:hover,.main6-span4:hover{
+	color: #2e87ed;
+}
+.main6-span5{
+	/*border: 1px solid red;*/
+	color: #2e87ed;
+	position: absolute;
+	top: 62px;
+	right: 95px;
+}
+.main6-span6{
+	/*border: 1px solid red;*/
+	position: absolute;
+	right: 30px;
+	top:62px;
+}
+.main6-span7{
+	color: #aaa;
+}
+.main6-span8{
+	color: #2e87ed;
+	position: absolute;
+	top: 62px;
+	right: 13px;
+}
+.main-6,.main-6 *{
+	background-color: white;
+}
+
+
+
+.main-7{
+	/*border: 1px solid blue; */
+	width: 760px;
+	height:95px;
+	position: absolute;
+	top: 710px;
+}
+/*.main7-caption{
+	color: black;
+	position: absolute;
+	left: 10px;
+	text-decoration: none;
+}
+.main7-caption:hover{
+	color: red
+}*/
+.main-7>div{
+	color: #aaa;
+	width: 740px;
+	height:20px;
+	/*内部文本不换行*/
+	white-space: nowrap;
+	/*先设置溢出内容隐藏*/
+	overflow: hidden;
+	/*因为设置隐藏之后，可能最后会显示半个字，所以再进行省略号的设置*/
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 10px;
+	top: 30px;
+}
+.main-7 img{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	top:58px;
+}
+.main7-name,.main7-yuedushu,.main7-pinglun{
+	color: black;
+}
+.main-7 span{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+}
+.main7-span1{
+	width: 130px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 45px;
+	top: 62px;
+}
+.main7-span2{
+	/*border: 1px solid red;*/
+	color: #aaa;
+	position: absolute;
+	top:62px;
+	left: 190px;
+}
+.main7-span3{
+	color: #aaa;
+	position: absolute;
+	top: 62px;
+	left: 275px;
+}
+.main7-span4{
+	/*border: 1px solid red;*/
+	position: absolute;
+	top: 62px;
+	right: 142px;
+}
+.main7-name:hover,.main7-span2:hover,.main7-span4:hover{
+	color: #2e87ed;
+}
+.main7-span5{
+	/*border: 1px solid red;*/
+	color: #2e87ed;
+	position: absolute;
+	top: 62px;
+	right: 95px;
+}
+.main7-span6{
+	/*border: 1px solid red;*/
+	position: absolute;
+	right: 30px;
+	top:62px;
+}
+.main7-span7{
+	color: #aaa;
+}
+.main7-span8{
+	color: #2e87ed;
+	position: absolute;
+	top: 62px;
+	right: 13px;
+}
+.main-7,.main-7 *{
+	background-color: white;
+}
+
+
+
+
+.main-8{
+	/*border: 1px solid blue; */
+	width: 760px;
+	height:95px;
+	position: absolute;
+	top: 829px;
+}
+/*.main8-caption{
+	color: black;
+	position: absolute;
+	left: 10px;
+	text-decoration: none;
+}
+.main8-caption:hover{
+	color: red
+}*/
+.main-8>div{
+	color: #aaa;
+	width: 740px;
+	height:20px;
+	/*内部文本不换行*/
+	white-space: nowrap;
+	/*先设置溢出内容隐藏*/
+	overflow: hidden;
+	/*因为设置隐藏之后，可能最后会显示半个字，所以再进行省略号的设置*/
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 10px;
+	top: 30px;
+}
+.main-8 img{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	top:58px;
+}
+.main8-name,.main8-yuedushu,.main8-pinglun{
+	color: black;
+}
+.main-8 span{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+}
+.main8-span1{
+	width: 130px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 45px;
+	top: 62px;
+}
+.main8-span2{
+	/*border: 1px solid red;*/
+	color: #aaa;
+	position: absolute;
+	top:62px;
+	left: 190px;
+}
+.main8-span3{
+	color: #aaa;
+	position: absolute;
+	top: 62px;
+	left: 275px;
+}
+.main8-span4{
+	position: absolute;
+	top: 62px;
+	right: 100px;
+}
+.main8-name:hover,.main8-span2:hover,.main8-span4:hover{
+	color: #2e87ed;
+}
+.main8-span5{
+	color: #2e87ed;
+	position: absolute;
+	top: 62px;
+	right: 55px;
+}
+.main8-span6{
+	position: absolute;
+	right:10px;
+	top:62px;
+}
+.main8-span7{
+	color: #aaa;
+}
+.main-8,.main-8 *{
+	background-color: white;
+}
+
+
+
+
+
+.main-9{
+	/*border: 1px solid blue; */
+	width: 760px;
+	height:95px;
+	position: absolute;
+	top: 948px;
+}
+/*.main9-caption{
+	color: black;
+	position: absolute;
+	left: 10px;
+	text-decoration: none;
+}
+.main9-caption:hover{
+	color: red
+}*/
+.main-9>div{
+	color: #aaa;
+	width: 740px;
+	height:20px;
+	/*内部文本不换行*/
+	white-space: nowrap;
+	/*先设置溢出内容隐藏*/
+	overflow: hidden;
+	/*因为设置隐藏之后，可能最后会显示半个字，所以再进行省略号的设置*/
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 10px;
+	top: 30px;
+}
+.main-9 img{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	top:58px;
+}
+.main9-name,.main9-yuedushu,.main9-pinglun{
+	color: black;
+}
+.main-9 span{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+}
+.main9-span1{
+	width: 130px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 45px;
+	top: 62px;
+}
+.main9-span2{
+	/*border: 1px solid red;*/
+	color: #aaa;
+	position: absolute;
+	top:62px;
+	left: 190px;
+}
+.main9-span3{
+	color: #aaa;
+	position: absolute;
+	top: 62px;
+	left: 275px;
+}
+.main9-span4{
+	/*border: 1px solid red;*/
+	position: absolute;
+	top: 62px;
+	right: 142px;
+}
+.main9-name:hover,.main9-span2:hover,.main9-span4:hover{
+	color: #2e89ed;
+}
+.main9-span5{
+	/*border: 1px solid red;*/
+	color: #2e87ed;
+	position: absolute;
+	top: 62px;
+	right: 95px;
+}
+.main9-span6{
+	/*border: 1px solid red;*/
+	position: absolute;
+	right: 30px;
+	top:62px;
+}
+.main9-span7{
+	color: #aaa;
+}
+.main9-span8{
+	color: #2e87ed;
+	position: absolute;
+	top: 62px;
+	right: 13px;
+}
+.main-9,.main-9 *{
+	background-color: white;
+}
+
+
+
+
+.main-10{
+	/*border: 1px solid blue; */
+	width: 760px;
+	height:95px;
+	position: absolute;
+	top: 1067px;
+}
+/*.main10-caption{
+	color: black;
+	position: absolute;
+	left: 10px;
+	text-decoration: none;
+}
+.main10-caption:hover{
+	color: red
+}*/
+.main-10>div{
+	color: #aaa;
+	width: 740px;
+	height:20px;
+	/*内部文本不换行*/
+	white-space: nowrap;
+	/*先设置溢出内容隐藏*/
+	overflow: hidden;
+	/*因为设置隐藏之后，可能最后会显示半个字，所以再进行省略号的设置*/
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 10px;
+	top: 30px;
+}
+.main-10 img{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	top:58px;
+}
+.main10-name,.main10-yuedushu,.main10-pinglun{
+	color: black;
+}
+.main-10 span{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+}
+.main10-span1{
+	width: 130px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 45px;
+	top: 62px;
+}
+.main10-span2{
+	/*border: 1px solid red;*/
+	color: #aaa;
+	position: absolute;
+	top:62px;
+	left: 190px;
+}
+.main10-span3{
+	color: #aaa;
+	position: absolute;
+	top: 62px;
+	left: 275px;
+}
+.main10-span4{
+	position: absolute;
+	top: 62px;
+	right: 100px;
+}
+.main10-name:hover,.main10-span2:hover,.main10-span4:hover{
+	color: #2e87ed;
+}
+.main10-span5{
+	color: #2e87ed;
+	position: absolute;
+	top: 62px;
+	right: 55px;
+}
+.main10-span6{
+	position: absolute;
+	right:10px;
+	top:62px;
+}
+.main10-span7{
+	color: #aaa;
+}
+.main-10,.main-10 *{
+	background-color: white;
+}
+
+
+
+.main-11{
+	/*border: 1px solid blue; */
+	width: 760px;
+	height:95px;
+	position: absolute;
+	top: 1186px;
+}
+/*.main11-caption{
+	color: black;
+	position: absolute;
+	left: 10px;
+	text-decoration: none;
+}
+.main11-caption:hover{
+	color: red
+}*/
+.main-11>div{
+	color: #aaa;
+	width: 740px;
+	height:20px;
+	/*内部文本不换行*/
+	white-space: nowrap;
+	/*先设置溢出内容隐藏*/
+	overflow: hidden;
+	/*因为设置隐藏之后，可能最后会显示半个字，所以再进行省略号的设置*/
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 10px;
+	top: 30px;
+}
+.main-11 img{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	top:58px;
+}
+.main11-name,.main11-yuedushu,.main11-pinglun{
+	color: black;
+}
+.main-11 span{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+}
+.main11-span1{
+	width: 130px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 45px;
+	top: 62px;
+}
+.main11-span2{
+	/*border: 1px solid red;*/
+	color: #aaa;
+	position: absolute;
+	top:62px;
+	left: 190px;
+}
+.main11-span3{
+	color: #aaa;
+	position: absolute;
+	top: 62px;
+	left: 275px;
+}
+.main11-span4{
+	position: absolute;
+	top: 62px;
+	right: 100px;
+}
+.main11-name:hover,.main11-span2:hover,.main11-span4:hover{
+	color: #2e87ed;
+}
+.main11-span5{
+	color: #2e87ed;
+	position: absolute;
+	top: 62px;
+	right: 55px;
+}
+.main11-span6{
+	position: absolute;
+	right:10px;
+	top:62px;
+}
+.main11-span7{
+	color: #aaa;
+}
+.main-11,.main-11 *{
+	background-color: white;
+}
+
+
+
+
+
+.main-12{
+	/*border: 1px solid blue; */
+	width: 760px;
+	height:70px;
+	position: absolute;
+	top: 1305px;
+}
+/*.main12-caption{
+	color: black;
+	position: absolute;
+	left: 10px;
+	text-decoration: none;
+}
+.main12-caption:hover{
+	color: red
+}*/
+.main-12 img{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	top:35px;
+}
+.main12-name,.main12-yuedushu,.main12-pinglun{
+	color: black;
+}
+.main-12 span{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+}
+.main12-span1{
+	width: 130px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 45px;
+	top: 40px;
+}
+.main12-span3{
+	color: #aaa;
+	position: absolute;
+	top: 40px;
+	left: 190px;
+}
+.main12-span4{
+	/*border: 1px solid red;*/
+	position: absolute;
+	top: 40px;
+	right: 142px;
+}
+.main12-name:hover,.main12-span2:hover,.main12-span4:hover{
+	color: #2e812ed;
+}
+.main12-span5{
+	/*border: 1px solid red;*/
+	color: #2e87ed;
+	position: absolute;
+	top: 40px;
+	right: 95px;
+}
+.main12-span6{
+	/*border: 1px solid red;*/
+	position: absolute;
+	right: 30px;
+	top:40px;
+}
+.main12-span7{
+	color: #aaa;
+}
+.main12-span8{
+	color: #2e87ed;
+	position: absolute;
+	top: 40px;
+	right: 13px;
+}
+.main-12,.main-12 *{
+	background-color: white;
+}
+
+
+
+
+.main-13{
+	/*border: 1px solid blue; */
+	width: 760px;
+	height:70px;
+	position: absolute;
+	top: 1795px;
+	left: 200px;
+}
+/*.main13-caption{
+	color: black;
+	position: absolute;
+	left: 10px;
+	text-decoration: none;
+}
+.main13-caption:hover{
+	color: red
+}*/
+.main-13 img{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	top:35px;
+}
+.main13-name,.main13-yuedushu,.main13-pinglun{
+	color: black;
+}
+.main-13 span{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+}
+.main13-span1{
+	width: 130px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 45px;
+	top: 40px;
+}
+.main13-span3{
+	color: #aaa;
+	position: absolute;
+	top: 40px;
+	left: 190px;
+}
+.main13-span4{
+	/*border: 1px solid red;*/
+	position: absolute;
+	top: 40px;
+	right: 142px;
+}
+.main13-name:hover,.main13-span2:hover,.main13-span4:hover{
+	color: #2e812ed;
+}
+.main13-span5{
+	/*border: 1px solid red;*/
+	color: #2e87ed;
+	position: absolute;
+	top: 40px;
+	right: 95px;
+}
+.main13-span6{
+	/*border: 1px solid red;*/
+	position: absolute;
+	right: 30px;
+	top:40px;
+}
+.main13-span7{
+	color: #aaa;
+}
+.main13-span8{
+	color: #2e87ed;
+	position: absolute;
+	top: 40px;
+	right: 13px;
+}
+.main-13,.main-13 *{
+	background-color: white;
+}
+
+
+.main-14{
+	/*border: 1px solid blue; */
+	width: 760px;
+	height:95px;
+	position: absolute;
+	top: 1890px;
+	left: 200px;
+}
+/*.main14-caption{
+	color: black;
+	position: absolute;
+	left: 10px;
+	text-decoration: none;
+}
+.main14-caption:hover{
+	color: red
+}*/
+.main-14>div{
+	color: #aaa;
+	width: 740px;
+	height:20px;
+	/*内部文本不换行*/
+	white-space: nowrap;
+	/*先设置溢出内容隐藏*/
+	overflow: hidden;
+	/*因为设置隐藏之后，可能最后会显示半个字，所以再进行省略号的设置*/
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 10px;
+	top: 30px;
+}
+.main-14 img{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	top:58px;
+}
+.main14-name,.main14-yuedushu,.main14-pinglun{
+	color: black;
+}
+.main-14 span{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+}
+.main14-span1{
+	width: 130px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 45px;
+	top: 62px;
+}
+.main14-span2{
+	/*border: 1px solid red;*/
+	color: #aaa;
+	position: absolute;
+	top:62px;
+	left: 190px;
+}
+.main14-span3{
+	color: #aaa;
+	position: absolute;
+	top: 62px;
+	left: 275px;
+}
+.main14-span4{
+	position: absolute;
+	top: 62px;
+	right: 100px;
+}
+.main14-name:hover,.main14-span2:hover,.main14-span4:hover{
+	color: #2e87ed;
+}
+.main14-span5{
+	color: #2e87ed;
+	position: absolute;
+	top: 62px;
+	right: 55px;
+}
+.main14-span6{
+	position: absolute;
+	right:10px;
+	top:62px;
+}
+.main14-span7{
+	color: #aaa;
+}
+.main-14,.main-14 *{
+	background-color: white;
+}
+
+
+.main-15{
+	/*border: 1px solid blue; */
+	width: 760px;
+	height:95px;
+	position: absolute;
+	top: 2010px;
+	left: 200px;
+}
+/*.main15-caption{
+	color: black;
+	position: absolute;
+	left: 10px;
+	text-decoration: none;
+}
+.main15-caption:hover{
+	color: red
+}*/
+.main-15>div{
+	color: #aaa;
+	width: 740px;
+	height:20px;
+	/*内部文本不换行*/
+	white-space: nowrap;
+	/*先设置溢出内容隐藏*/
+	overflow: hidden;
+	/*因为设置隐藏之后，可能最后会显示半个字，所以再进行省略号的设置*/
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 10px;
+	top: 30px;
+}
+.main-15 img{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	top:58px;
+}
+.main15-name,.main15-yuedushu,.main15-pinglun{
+	color: black;
+}
+.main-15 span{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+}
+.main15-span1{
+	width: 130px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 45px;
+	top: 62px;
+}
+.main15-span2{
+	/*border: 1px solid red;*/
+	color: #aaa;
+	position: absolute;
+	top:62px;
+	left: 190px;
+}
+.main15-span3{
+	color: #aaa;
+	position: absolute;
+	top: 62px;
+	left: 275px;
+}
+.main15-span4{
+	/*border: 1px solid red;*/
+	position: absolute;
+	top: 62px;
+	right: 142px;
+}
+.main15-name:hover,.main15-span2:hover,.main15-span4:hover{
+	color: #2e89ed;
+}
+.main15-span5{
+	/*border: 1px solid red;*/
+	color: #2e87ed;
+	position: absolute;
+	top: 62px;
+	right: 95px;
+}
+.main15-span6{
+	/*border: 1px solid red;*/
+	position: absolute;
+	right: 30px;
+	top:62px;
+}
+.main15-span7{
+	color: #aaa;
+}
+.main15-span8{
+	color: #2e87ed;
+	position: absolute;
+	top: 62px;
+	right: 13px;
+}
+.main-15,.main-15 *{
+	background-color: white;
+}
+
+.main-16{
+	/*border: 1px solid blue; */
+	width: 760px;
+	height:95px;
+	position: absolute;
+	top: 2130px;
+	left: 200px;
+}
+/*.main16-caption{
+	color: black;
+	position: absolute;
+	left: 10px;
+	text-decoration: none;
+}
+.main16-caption:hover{
+	color: red
+}*/
+.main-16>div{
+	color: #aaa;
+	width: 740px;
+	height:20px;
+	/*内部文本不换行*/
+	white-space: nowrap;
+	/*先设置溢出内容隐藏*/
+	overflow: hidden;
+	/*因为设置隐藏之后，可能最后会显示半个字，所以再进行省略号的设置*/
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 10px;
+	top: 30px;
+}
+.main-16 img{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	top:58px;
+}
+.main16-name,.main16-yuedushu,.main16-pinglun{
+	color: black;
+}
+.main-16 span{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+}
+.main16-span1{
+	width: 130px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 45px;
+	top: 62px;
+}
+.main16-span2{
+	/*border: 1px solid red;*/
+	color: #aaa;
+	position: absolute;
+	top:62px;
+	left: 190px;
+}
+.main16-span3{
+	color: #aaa;
+	position: absolute;
+	top: 62px;
+	left: 275px;
+}
+.main16-span4{
+	/*border: 1px solid red;*/
+	position: absolute;
+	top: 62px;
+	right: 142px;
+}
+.main16-name:hover,.main16-span2:hover,.main16-span4:hover{
+	color: #2e89ed;
+}
+.main16-span5{
+	/*border: 1px solid red;*/
+	color: #2e87ed;
+	position: absolute;
+	top: 62px;
+	right: 95px;
+}
+.main16-span6{
+	/*border: 1px solid red;*/
+	position: absolute;
+	right: 30px;
+	top:62px;
+}
+.main16-span7{
+	color: #aaa;
+}
+.main16-span8{
+	color: #2e87ed;
+	position: absolute;
+	top: 62px;
+	right: 13px;
+}
+.main-16,.main-16 *{
+	background-color: white;
+}
+
+
+
+.main-17{
+	/*border: 1px solid blue; */
+	width: 760px;
+	height:95px;
+	position: absolute;
+	top: 2250px;
+	left: 200px;
+}
+/*.main17-caption{
+	color: black;
+	position: absolute;
+	left: 10px;
+	text-decoration: none;
+}
+.main17-caption:hover{
+	color: red
+}*/
+.main-17>div{
+	color: #aaa;
+	width: 740px;
+	height:20px;
+	/*内部文本不换行*/
+	white-space: nowrap;
+	/*先设置溢出内容隐藏*/
+	overflow: hidden;
+	/*因为设置隐藏之后，可能最后会显示半个字，所以再进行省略号的设置*/
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 10px;
+	top: 30px;
+}
+.main-17 img{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	top:58px;
+}
+.main17-name,.main17-yuedushu,.main17-pinglun{
+	color: black;
+}
+.main-17 span{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+}
+.main17-span1{
+	width: 130px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 45px;
+	top: 62px;
+}
+.main17-span2{
+	/*border: 1px solid red;*/
+	color: #aaa;
+	position: absolute;
+	top:62px;
+	left: 190px;
+}
+.main17-span3{
+	color: #aaa;
+	position: absolute;
+	top: 62px;
+	left: 275px;
+}
+.main17-span4{
+	/*border: 1px solid red;*/
+	position: absolute;
+	top: 62px;
+	right: 142px;
+}
+.main17-name:hover,.main17-span2:hover,.main17-span4:hover{
+	color: #2e89ed;
+}
+.main17-span5{
+	/*border: 1px solid red;*/
+	color: #2e87ed;
+	position: absolute;
+	top: 62px;
+	right: 95px;
+}
+.main17-span6{
+	/*border: 1px solid red;*/
+	position: absolute;
+	right: 30px;
+	top:62px;
+}
+.main17-span7{
+	color: #aaa;
+}
+.main17-span8{
+	color: #2e87ed;
+	position: absolute;
+	top: 62px;
+	right: 13px;
+}
+.main-17,.main-17 *{
+	background-color: white;
+}
+
+
+
+.main-18{
+	/*border: 1px solid blue; */
+	width: 760px;
+	height:95px;
+	position: absolute;
+	top: 2370px;
+	left: 200px;
+}
+/*.main18-caption{
+	color: black;
+	position: absolute;
+	left: 10px;
+	text-decoration: none;
+}
+.main18-caption:hover{
+	color: red
+}*/
+.main-18>div{
+	color: #aaa;
+	width: 740px;
+	height:20px;
+	/*内部文本不换行*/
+	white-space: nowrap;
+	/*先设置溢出内容隐藏*/
+	overflow: hidden;
+	/*因为设置隐藏之后，可能最后会显示半个字，所以再进行省略号的设置*/
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 10px;
+	top: 30px;
+}
+.main-18 img{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	top:58px;
+}
+.main18-name,.main18-yuedushu,.main18-pinglun{
+	color: black;
+}
+.main-18 span{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+}
+.main18-span1{
+	width: 130px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 45px;
+	top: 62px;
+}
+.main18-span2{
+	/*border: 1px solid red;*/
+	color: #aaa;
+	position: absolute;
+	top:62px;
+	left: 190px;
+}
+.main18-span3{
+	color: #aaa;
+	position: absolute;
+	top: 62px;
+	left: 275px;
+}
+.main18-span4{
+	position: absolute;
+	top: 62px;
+	right: 100px;
+}
+.main18-name:hover,.main18-span2:hover,.main18-span4:hover{
+	color: #2e87ed;
+}
+.main18-span5{
+	color: #2e87ed;
+	position: absolute;
+	top: 62px;
+	right: 55px;
+}
+.main18-span6{
+	position: absolute;
+	right:10px;
+	top:62px;
+}
+.main18-span7{
+	color: #aaa;
+}
+.main-18,.main-18 *{
+	background-color: white;
+}
+
+
+
+.main-19{
+	/*border: 1px solid blue; */
+	width: 760px;
+	height:95px;
+	position: absolute;
+	top: 2490px;
+	left: 200px;
+}
+/*.main19-caption{
+	color: black;
+	position: absolute;
+	left: 10px;
+	text-decoration: none;
+}
+.main19-caption:hover{
+	color: red
+}*/
+.main-19>div{
+	color: #aaa;
+	width: 740px;
+	height:20px;
+	/*内部文本不换行*/
+	white-space: nowrap;
+	/*先设置溢出内容隐藏*/
+	overflow: hidden;
+	/*因为设置隐藏之后，可能最后会显示半个字，所以再进行省略号的设置*/
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 10px;
+	top: 30px;
+}
+.main-19 img{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	top:58px;
+}
+.main19-name,.main19-yuedushu,.main19-pinglun{
+	color: black;
+}
+.main-19 span{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+}
+.main19-span1{
+	width: 130px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 45px;
+	top: 62px;
+}
+.main19-span2{
+	/*border: 1px solid red;*/
+	color: #aaa;
+	position: absolute;
+	top:62px;
+	left: 190px;
+}
+.main19-span3{
+	color: #aaa;
+	position: absolute;
+	top: 62px;
+	left: 275px;
+}
+.main19-span4{
+	position: absolute;
+	top: 62px;
+	right: 100px;
+}
+.main19-name:hover,.main19-span2:hover,.main19-span4:hover{
+	color: #2e87ed;
+}
+.main19-span5{
+	color: #2e87ed;
+	position: absolute;
+	top: 62px;
+	right: 55px;
+}
+.main19-span6{
+	position: absolute;
+	right:10px;
+	top:62px;
+}
+.main19-span7{
+	color: #aaa;
+}
+.main-19,.main-19 *{
+	background-color: white;
+}
+
+
+
+.main-20{
+	/*border: 1px solid blue; */
+	width: 760px;
+	height:95px;
+	position: absolute;
+	top: 2610px;
+	left: 200px;
+}
+/*.main20-caption{
+	color: black;
+	position: absolute;
+	left: 10px;
+	text-decoration: none;
+}
+.main20-caption:hover{
+	color: red
+}*/
+.main-20>div{
+	color: #aaa;
+	width: 740px;
+	height:20px;
+	/*内部文本不换行*/
+	white-space: nowrap;
+	/*先设置溢出内容隐藏*/
+	overflow: hidden;
+	/*因为设置隐藏之后，可能最后会显示半个字，所以再进行省略号的设置*/
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 10px;
+	top: 30px;
+}
+.main-20 img{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	top:58px;
+}
+.main20-name,.main20-yuedushu,.main20-pinglun{
+	color: black;
+}
+.main-20 span{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+}
+.main20-span1{
+	width: 130px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 45px;
+	top: 62px;
+}
+.main20-span3{
+	color: #aaa;
+	position: absolute;
+	top: 62px;
+	left: 190px;
+}
+.main20-span4{
+	position: absolute;
+	top: 62px;
+	right: 100px;
+}
+.main20-name:hover,.main20-span2:hover,.main20-span4:hover{
+	color: #2e87ed;
+}
+.main20-span5{
+	color: #2e87ed;
+	position: absolute;
+	top: 62px;
+	right: 55px;
+}
+.main20-span6{
+	position: absolute;
+	right:10px;
+	top:62px;
+}
+.main20-span7{
+	color: #aaa;
+}
+.main-20,.main-20 *{
+	background-color: white;
+}
+
+.main-21{
+	/*border: 1px solid blue; */
+	width: 760px;
+	height:95px;
+	position: absolute;
+	top: 2730px;
+	left: 200px;
+}
+/*.main21-caption{
+	color: black;
+	position: absolute;
+	left: 10px;
+	text-decoration: none;
+}
+.main21-caption:hover{
+	color: red
+}*/
+.main-21>div{
+	color: #aaa;
+	width: 740px;
+	height:20px;
+	/*内部文本不换行*/
+	white-space: nowrap;
+	/*先设置溢出内容隐藏*/
+	overflow: hidden;
+	/*因为设置隐藏之后，可能最后会显示半个字，所以再进行省略号的设置*/
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 10px;
+	top: 30px;
+}
+.main-21 img{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	top:58px;
+}
+.main21-name,.main21-yuedushu,.main21-pinglun{
+	color: black;
+}
+.main-21 span{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+}
+.main21-span1{
+	width: 130px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 45px;
+	top: 62px;
+}
+.main21-span2{
+	/*border: 1px solid red;*/
+	color: #aaa;
+	position: absolute;
+	top:62px;
+	left: 190px;
+}
+.main21-span3{
+	color: #aaa;
+	position: absolute;
+	top: 62px;
+	left: 275px;
+}
+.main21-span4{
+	/*border: 1px solid red;*/
+	position: absolute;
+	top: 62px;
+	right: 142px;
+}
+.main21-name:hover,.main21-span2:hover,.main21-span4:hover{
+	color: #2e89ed;
+}
+.main21-span5{
+	/*border: 1px solid red;*/
+	color: #2e87ed;
+	position: absolute;
+	top: 62px;
+	right: 95px;
+}
+.main21-span6{
+	/*border: 1px solid red;*/
+	position: absolute;
+	right: 30px;
+	top:62px;
+}
+.main21-span7{
+	color: #aaa;
+}
+.main21-span8{
+	color: #2e87ed;
+	position: absolute;
+	top: 62px;
+	right: 13px;
+}
+.main-21,.main-21 *{
+	background-color: white;
+}
+
+.main-22{
+	/*border: 1px solid blue; */
+	width: 760px;
+	height:95px;
+	position: absolute;
+	top: 2850px;
+	left: 200px;
+}
+/*.main22-caption{
+	color: black;
+	position: absolute;
+	left: 10px;
+	text-decoration: none;
+}
+.main22-caption:hover{
+	color: red
+}*/
+.main-22>div{
+	color: #aaa;
+	width: 740px;
+	height:20px;
+	/*内部文本不换行*/
+	white-space: nowrap;
+	/*先设置溢出内容隐藏*/
+	overflow: hidden;
+	/*因为设置隐藏之后，可能最后会显示半个字，所以再进行省略号的设置*/
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 10px;
+	top: 30px;
+}
+.main-22 img{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	top:58px;
+}
+.main22-name,.main22-yuedushu,.main22-pinglun{
+	color: black;
+}
+.main-22 span{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+}
+.main22-span1{
+	width: 130px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 45px;
+	top: 62px;
+}
+.main22-span3{
+	color: #aaa;
+	position: absolute;
+	top: 62px;
+	left: 190px;
+}
+.main22-span4{
+	position: absolute;
+	top: 62px;
+	right: 100px;
+}
+.main22-name:hover,.main22-span2:hover,.main22-span4:hover{
+	color: #2e87ed;
+}
+.main22-span5{
+	color: #2e87ed;
+	position: absolute;
+	top: 62px;
+	right: 55px;
+}
+.main22-span6{
+	position: absolute;
+	right:10px;
+	top:62px;
+}
+.main22-span7{
+	color: #aaa;
+}
+.main-22,.main-22 *{
+	background-color: white;
+}
+
+
+
+
+.main-23{
+	/*border: 1px solid blue; */
+	width: 760px;
+	height:95px;
+	position: absolute;
+	top: 2970px;
+	left: 200px;
+}
+/*.main23-caption{
+	color: black;
+	position: absolute;
+	left: 10px;
+	text-decoration: none;
+}
+.main23-caption:hover{
+	color: red
+}*/
+.main-23>div{
+	color: #aaa;
+	width: 740px;
+	height:20px;
+	/*内部文本不换行*/
+	white-space: nowrap;
+	/*先设置溢出内容隐藏*/
+	overflow: hidden;
+	/*因为设置隐藏之后，可能最后会显示半个字，所以再进行省略号的设置*/
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 10px;
+	top: 30px;
+}
+.main-23 img{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	top:58px;
+}
+.main23-name,.main23-yuedushu,.main23-pinglun{
+	color: black;
+}
+.main-23 span{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+}
+.main23-span1{
+	width: 130px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 45px;
+	top: 62px;
+}
+.main23-span2{
+	/*border: 1px solid red;*/
+	color: #aaa;
+	position: absolute;
+	top:62px;
+	left: 190px;
+}
+.main23-span3{
+	color: #aaa;
+	position: absolute;
+	top: 62px;
+	left: 275px;
+}
+.main23-span4{
+	position: absolute;
+	top: 62px;
+	right: 100px;
+}
+.main23-name:hover,.main23-span2:hover,.main23-span4:hover{
+	color: #2e87ed;
+}
+.main23-span5{
+	color: #2e87ed;
+	position: absolute;
+	top: 62px;
+	right: 55px;
+}
+.main23-span6{
+	position: absolute;
+	right:10px;
+	top:62px;
+}
+.main23-span7{
+	color: #aaa;
+}
+.main-23,.main-23 *{
+	background-color: white;
+}
+
+
+
+.main-24{
+	/*border: 1px solid blue; */
+	width: 760px;
+	height:95px;
+	position: absolute;
+	top: 3090px;
+	left: 200px;
+}
+/*.main24-caption{
+	color: black;
+	position: absolute;
+	left: 10px;
+	text-decoration: none;
+}
+.main24-caption:hover{
+	color: red
+}*/
+.main-24>div{
+	color: #aaa;
+	width: 740px;
+	height:20px;
+	/*内部文本不换行*/
+	white-space: nowrap;
+	/*先设置溢出内容隐藏*/
+	overflow: hidden;
+	/*因为设置隐藏之后，可能最后会显示半个字，所以再进行省略号的设置*/
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 10px;
+	top: 30px;
+}
+.main-24 img{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	top:58px;
+}
+.main24-name,.main24-yuedushu,.main24-pinglun{
+	color: black;
+}
+.main-24 span{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+}
+.main24-span1{
+	width: 130px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 45px;
+	top: 62px;
+}
+.main24-span2{
+	/*border: 1px solid red;*/
+	color: #aaa;
+	position: absolute;
+	top:62px;
+	left: 190px;
+}
+.main24-span3{
+	color: #aaa;
+	position: absolute;
+	top: 62px;
+	left: 275px;
+}
+.main24-span4{
+	position: absolute;
+	top: 62px;
+	right: 100px;
+}
+.main24-name:hover,.main24-span2:hover,.main24-span4:hover{
+	color: #2e87ed;
+}
+.main24-span5{
+	color: #2e87ed;
+	position: absolute;
+	top: 62px;
+	right: 55px;
+}
+.main24-span6{
+	position: absolute;
+	right:10px;
+	top:62px;
+}
+.main24-span7{
+	color: #aaa;
+}
+.main-24,.main-24 *{
+	background-color: white;
+}
+
+
+
+.main-25{
+	/*border: 1px solid blue; */
+	width: 760px;
+	height:95px;
+	position: absolute;
+	top: 3210px;
+	left: 200px;
+}
+/*.main25-caption{
+	color: black;
+	position: absolute;
+	left: 10px;
+	text-decoration: none;
+}
+.main25-caption:hover{
+	color: red
+}*/
+.main-div{
+	color: #aaa;
+	width: 740px;
+	height:20px;
+	/*内部文本不换行*/
+	white-space: nowrap;
+	/*先设置溢出内容隐藏*/
+	overflow: hidden;
+	/*因为设置隐藏之后，可能最后会显示半个字，所以再进行省略号的设置*/
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 10px;
+	top: 30px;
+}
+.main-25 img{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	top:58px;
+}
+.main25-name,.main25-yuedushu,.main25-pinglun{
+	color: black;
+}
+.main-25 span{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+}
+.main25-span1{
+	width: 130px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 45px;
+	top: 62px;
+}
+.main25-span2{
+	/*border: 1px solid red;*/
+	color: #aaa;
+	position: absolute;
+	top:62px;
+	left: 190px;
+}
+.main25-span3{
+	color: #aaa;
+	position: absolute;
+	top: 62px;
+	left: 275px;
+}
+.main25-span4{
+	position: absolute;
+	top: 62px;
+	right: 100px;
+}
+.main25-name:hover,.main25-span2:hover,.main25-span4:hover{
+	color: #2e87ed;
+}
+.main25-span5{
+	color: #2e87ed;
+	position: absolute;
+	top: 62px;
+	right: 55px;
+}
+.main25-span6{
+	position: absolute;
+	right:10px;
+	top:62px;
+}
+.main25-span7{
+	color: #aaa;
+}
+.main-25,.main-25 *{
+	background-color: white;
+}
+
+
+
+.main-26{
+	/*border: 1px solid blue; */
+	width: 760px;
+	height:95px;
+	position: absolute;
+	top: 3330px;
+	left: 200px;
+}
+/*.main26-caption{
+	color: black;
+	position: absolute;
+	left: 10px;
+	text-decoration: none;
+}
+.main26-caption:hover{
+	color: red
+}*/
+.main-div{
+	color: #aaa;
+	width: 740px;
+	height:20px;
+	/*内部文本不换行*/
+	white-space: nowrap;
+	/*先设置溢出内容隐藏*/
+	overflow: hidden;
+	/*因为设置隐藏之后，可能最后会显示半个字，所以再进行省略号的设置*/
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 10px;
+	top: 30px;
+}
+.main-img{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	top:58px;
+}
+.main-name,.main-yuedushu,.main-pinglun{
+	color: black;
+}
+.main-26 span{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+}
+.main1-span1{
+	width: 130px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: absolute;
+	left: 45px;
+	top: 62px;
+}
+.main26-span2{
+	/*border: 1px solid red;*/
+	color: #aaa;
+	position: absolute;
+	top:62px;
+	left: 190px;
+}
+.main26-span3{
+	color: #aaa;
+	position: absolute;
+	top: 62px;
+	left: 275px;
+}
+.main26-span4{
+	position: absolute;
+	top: 62px;
+	right: 100px;
+}
+.main26-name:hover,.main26-span2:hover,.main26-span4:hover{
+	color: #2e87ed;
+}
+.main26-span5{
+	color: #2e87ed;
+	position: absolute;
+	top: 62px;
+	right: 55px;
+}
+.main26-span6{
+	position: absolute;
+	right:10px;
+	top:62px;
+}
+.main26-span7{
+	color: #aaa;
+}
+.main-26,.main-26 *{
+	background-color: white;
+}
+
+
+
+
+.recommendation{
+	width: 300px;
+	height: 1115px;
+	position: absolute;
+	left: 970px;
+	top: 375px;
+	border-bottom: 2px solid #ddd;
+}
+.xiaoshukuang{
+	width: 5px;
+	height: 23px;
+	position: absolute;
+	left: 10px;
+	top: 20px;
+	
+	background-color: red;
+}
+.today{
+	display: inline-block;
+	position: absolute;
+	top:20px;
+	left: 20px;
+}
+.recom-one img{
+	width: 64px;
+	height: 48px;
+	position: absolute;
+	left: 10px;
+	top: 45px;
+}
+.recom-one h4{
+	display: inline-block;
+	position: absolute;
+	top: 49px;
+	left: 80px;
+}
+.recom-one h4:hover{
+	color: red;
+	cursor: pointer;
+}
+.recom-two img{
+	width: 64px;
+	height: 48px;
+	position: absolute;
+	left: 10px;
+	top: 112px;
+}
+.recom-two h4{
+	display: inline-block;
+	position: absolute;
+	top: 114px;
+	left: 80px;
+}
+.recom-two h4:hover{
+	color: red;
+	cursor: pointer;
+}
+.recom-three img{
+	width: 64px;
+	height: 48px;
+	position: absolute;
+	left: 10px;
+	top: 179px;
+}
+.recom-three h4{
+	display: inline-block;
+	position: absolute;
+	top: 181px;
+	left: 80px;
+}
+.recom-three h4:hover{
+	color: red;
+	cursor: pointer;
+}
+.recom-four img{
+	width: 64px;
+	height: 48px;
+	position: absolute;
+	left: 10px;
+	top: 246px;
+}
+.recom-four h4{
+	display: inline-block;
+	position: absolute;
+	top: 251px;
+	left: 80px;
+}
+.recom-four h4:hover{
+	color: red;
+	cursor: pointer;
+}
+.recom-four p{
+	position: absolute;
+	left: 80px;
+	top: 275px;
+	font-size: 13px;
+	color: #aaa;
+}
+.recom-five img{
+	width: 64px;
+	height: 48px;
+	position: absolute;
+	left: 10px;
+	top: 313px;
+}
+.recom-five h4{
+	display: inline-block;
+	position: absolute;
+	top: 316px;
+	left: 80px;
+}
+.recom-five h4:hover{
+	color: red;
+	cursor: pointer;
+}
+.recom-six img{
+	width: 64px;
+	height: 48px;
+	position: absolute;
+	left: 10px;
+	top: 380px;
+}
+.recom-six h4{
+	display: inline-block;
+	position: absolute;
+	top: 381px;
+	left: 80px;
+}
+.recom-six h4:hover{
+	color: red;
+	cursor: pointer;
+}
+.recom-seven img{
+	width: 64px;
+	height: 48px;
+	position: absolute;
+	left: 10px;
+	top: 447px;
+}
+.recom-seven h4{
+	display: inline-block;
+	position: absolute;
+	top: 449px;
+	left: 80px;
+}
+.recom-seven h4:hover{
+	color: red;
+	cursor: pointer;
+}
+.recom-eight img{
+	width: 64px;
+	height: 48px;
+	position: absolute;
+	left: 10px;
+	top: 514px;
+}
+.recom-eight h4{
+	display: inline-block;
+	position: absolute;
+	top: 517px;
+	left: 80px;
+}
+.recom-eight h4:hover{
+	color: red;
+	cursor: pointer;
+}
+.recom-nine img{
+	width: 64px;
+	height: 48px;
+	position: absolute;
+	left: 10px;
+	top: 581px;
+}
+.recom-nine h4{
+	display: inline-block;
+	position: absolute;
+	top: 582px;
+	left: 80px;
+}
+.recom-nine h4:hover{
+	color: red;
+	cursor: pointer;
+}
+.recom-nine p{
+	font-size: 13px;
+	color: #aaa;
+	position: absolute;
+	top: 606px;
+	left:80px;
+}
+.recom-ten img{
+	width: 64px;
+	height: 48px;
+	position: absolute;
+	left: 10px;
+	top: 648px;
+}
+.recom-ten h4{
+	display: inline-block;
+	position: absolute;
+	top: 650px;
+	left: 80px;
+}
+.recom-ten h4:hover{
+	color: red;
+	cursor: pointer;
+}
+.recom-11 img{
+	width: 64px;
+	height: 48px;
+	position: absolute;
+	left: 10px;
+	top: 715px;
+}
+.recom-11 h4{
+	display: inline-block;
+	position: absolute;
+	top: 717px;
+	left: 80px;
+}
+.recom-11 h4:hover{
+	color: red;
+	cursor: pointer;
+}
+.recom-12 img{
+	width: 64px;
+	height: 48px;
+	position: absolute;
+	left: 10px;
+	top: 782px;
+}
+.recom-12 h4{
+	display: inline-block;
+	position: absolute;
+	top: 784px;
+	left: 80px;
+}
+.recom-12 h4:hover{
+	color: red;
+	cursor: pointer;
+}
+.recom-13 img{
+	width: 64px;
+	height: 48px;
+	position: absolute;
+	left: 10px;
+	top: 849px;
+}
+.recom-13 h4{
+	display: inline-block;
+	position: absolute;
+	top: 851px;
+	left: 80px;
+}
+.recom-13 h4:hover{
+	color: red;
+	cursor: pointer;
+}
+.recom-14 img{
+	width: 64px;
+	height: 48px;
+	position: absolute;
+	left: 10px;
+	top: 916px;
+}
+.recom-14 h4{
+	display: inline-block;
+	position: absolute;
+	top: 918px;
+	left: 80px;
+}
+.recom-14 h4:hover{
+	color: red;
+	cursor: pointer;
+}
+.recom-15 img{
+	width: 64px;
+	height: 48px;
+	position: absolute;
+	left: 10px;
+	top: 983px;
+}
+.recom-15 h4{
+	display: inline-block;
+	position: absolute;
+	top: 985px;
+	left: 80px;
+}
+.recom-15 h4:hover{
+	color: red;
+	cursor: pointer;
+}
+.recom-16 img{
+	width: 64px;
+	height: 48px;
+	position: absolute;
+	left: 10px;
+	top: 1050px;
+}
+.recom-16 h4{
+	display: inline-block;
+	position: absolute;
+	top: 1052px;
+	left: 80px;
+}
+.recom-16 h4:hover{
+	color: red;
+	cursor: pointer;
+}
+.recommendation,.recommendation p,.recommendation h4{
+	background-color: white;
+}
+.zhuanqu{
+	width: 300px;
+	/*border: 1px solid red;*/
+	background-color: white;
+	position: absolute;
+	top: 1491px;
+	left:970px;
+	padding: 20px 0 30px 0;
+	/*margin-left: 10px;*/
+}
+.zhuanqu>p{
+	display: inline-block;
+	background-color: white;
+	font-size:17px;
+	color: #aaa;
+	height: 20px;
+}
+.zhuanqu>p:hover{
+	color: red;
+	cursor: pointer;
+}
+.vote{
+	width: 300px;
+	/*border: 1px solid red;*/
+	position: absolute;
+	top:1640px;
+	left:970px; 
+}
+.vote-a1{
+	position: relative;
+}
+.vote img{
+	width: 300px;
+	height: 111px;
+	display: block;
+}
+.vote p{
+	width: 290px;
+	height: 20px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: inline-block;
+	text-decoration: none;
+	background-color: rgba(0,0,0,0);
+	color: white;
+	position: absolute;
+	bottom: -80px;
+	left: 5px;
+}
+.true-false{
+	height: 80px;
+	border-bottom: 2px solid #ddd;
+	position: relative;
+	background-color: white;
+}
+.true-false *{
+	display: inline-block;
+	color: red;
+	background-color: white;
+}
+.baifenshu{
+	font-size: 25px;
+}
+.tf-span1{
+	position: absolute;
+	left:30px;
+	top:16px; 
+}
+.vote-anniu{
+	border: 1px solid red;
+	border-radius: 5px;
+	width: 100px;
+	padding: 3px;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	left: 94px;
+	top: 26px;
+}
+.tf-span2{
+	position: absolute;
+	right:30px;
+	top:16px; 
+}
+.question{
+	/*border:1px solid blue;*/
+	height: 100px; 
+	position: relative;
+	background-color: white;
+}
+.question-one,.question-two{
+	color: black;
+	text-decoration: none;
+	padding: 10px 6px 10px 6px;
+	background-color: white;
+}
+.question-one:hover,.question-two:hover{
+	color: red;
+}
+.question-one{
+	border-bottom: 1px dashed #ddd;
+	position: absolute;
+	top:10px;
+	left:12px;
+}
+.question-two{
+	/*border: 1px solid blue;*/
+	position: absolute;
+	top:54px;
+	left:12px;
+}
+.vote span,a{
+	background-color: white;
+}
+.book-dy{
+	width: 300px;
+	position: absolute;
+	top: 1945px;
+	left: 970px;
+}
+.book-dy,.book-dy *{
+	background-color: white;
+}
+.book-caption{
+	height: 48px;
+	position: relative;
+}
+.book-c-span1{
+	/*border: 1px solid red;*/
+	padding: 10px;
+	position: absolute;
+	left: 10px;
+	top: 3px;
+}
+.book-c-span2{
+	color: #2f89f1;
+	padding: 10px;
+	position:absolute;
+	right: 10px;
+	top: 3px;
+}
+.book-c-span2:hover{
+	color: #016fbb;
+}
+.book-lunbo{
+	width: 300px;
+	overflow: hidden;
+}
+.book-lunbohe{
+	width:1200px;
+	animation:myanithree 12s linear infinite;
+}
+.book-lunbohe>div{
+	float: left;
+}
+@keyframes myanithree{
+	0%,25%{
+		margin-left: 0px;
+	}
+	33%,50%{
+		margin-left: -300px;
+	}
+	58%,75%{
+		margin-left: -600px;
+	}
+	83%,100%{
+		margin-left: -900px;
+	}
+}
+.book1{
+	width: 300px;
+	height: 140px;
+	position: relative;
+}
+.book1-a1{
+	position: absolute;
+	top: 8px;
+	left: 10px;
+}
+.book1 img{
+	width: 92px;
+	height: 124px;
+}
+.book1-h5-1{
+	text-decoration: none;
+	font-size: 16px;
+	color: black;
+	margin: 2px;
+	position: absolute;
+	top: 8px;
+	left: 110px;
+}
+.book1-h5-1:hover{
+	color: red;
+}
+.book1-span1{
+	margin-right:2px; 
+	position: absolute;
+	left: 110px;
+	top: 35px;
+	font-size: 13px;
+}
+.book2{
+	width: 300px;
+	
+	height: 140px;
+	position: relative;
+}
+.book2-a1{
+	position: absolute;
+	top: 8px;
+	left: 10px;
+}
+.book2 img{
+	width: 92px;
+	height: 124px;
+}
+.book2-h5-1{
+	text-decoration: none;
+	font-size: 16px;
+	color: black;
+	margin: 2px;
+	position: absolute;
+	top: 8px;
+	left: 110px;
+}
+.book2-h5-1:hover{
+	color: red;
+}
+.book2-span1{
+	margin-right:2px; 
+	position: absolute;
+	left: 110px;
+	top: 35px;
+	font-size: 13px;
+}
+.book3{
+	width: 300px;
+	height: 140px;
+	position: relative;
+}
+.book3-a1{
+	position: absolute;
+	top: 8px;
+	left: 10px;
+}
+.book3 img{
+	width: 92px;
+	height: 124px;
+}
+.book3-h5-1{
+	text-decoration: none;
+	font-size: 16px;
+	color: black;
+	margin: 2px;
+	position: absolute;
+	top: 8px;
+	left: 110px;
+}
+.book3-h5-1:hover{
+	color: red;
+}
+.book3-span1{
+	margin-right:2px; 
+	position: absolute;
+	left: 110px;
+	top: 58px;
+	font-size: 13px;
+}
+.book4{
+	width: 300px;
+	height: 140px;
+	position: relative;
+}
+.book4-a1{
+	position: absolute;
+	top: 8px;
+	left: 10px;
+}
+.book4 img{
+	width: 92px;
+	height: 124px;
+}
+.book4-h5-1{
+	text-decoration: none;
+	font-size: 16px;
+	color: black;
+	margin: 2px;
+	position: absolute;
+	top: 8px;
+	left: 110px;
+}
+.book4-h5-1:hover{
+	color: red;
+}
+.book4-span1{
+	margin-right:2px; 
+	position: absolute;
+	left: 110px;
+	top: 58px;
+	font-size: 13px;
+}
+.ad-youxia{
+	/*border: 1px solid red;*/
+	width: 300px;
+	position: absolute;
+	top: 2145px;
+	left: 970px;
+}
+.ad-youxia>img{
+	display: block;
+	width: 300px;
+	height: 250px;
+}
+
+
+.activity{
+	/*border: 1px solid red;*/
+	width: 300px;
+	/*height: 300px;*/
+	position: absolute;
+	left: 970px;
+	top: 2400px;
+}
+.activity,.activity *{
+	background-color: white;
+}
+.activity-xiaoshukuang{
+	width: 5px;
+	height: 23px;
+	position: absolute;
+	left: 10px;
+	top: 20px;
+	background-color: red;
+}
+.activity-span1{
+	display: inline-block;
+	position: absolute;
+	top:20px;
+	left:20px;
+}
+.activity-1{
+	border-bottom: 1px dashed #ddd;
+	margin-top: 50px;
+	padding-left: 10px;
+	height: 72px;
+}
+.activity-1>p{
+	font-size: 20px;
+	font-weight: bold;
+}
+.activity-1-span1{
+	/*border: 1px solid blue;*/
+	width: 248px;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+.activity-1-span1:hover{
+	color: red;
+	cursor: pointer;
+}
+.activity-1-span2{
+	/*border: 1px solid blue;*/
+	position: absolute;
+	top: 94px;
+	left:50px;
+}
+
+.activity-2{
+	/*border: 1px solid red;*/
+	border-bottom: 1px dashed #ddd;
+	/*margin-top: 50px;*/
+	padding-left: 10px;
+	height: 72px;
+}
+.activity-2>p{
+	font-size: 20px;
+	font-weight: bold;
+}
+.activity-2-span1{
+	/*border: 1px solid blue;*/
+	width: 248px;
+	position: absolute;
+	top: 125px;
+	left: 50px;
+}
+.activity-2-span1:hover{
+	color: red;
+	cursor: pointer;
+}
+.activity-2-span2{
+	/*border: 1px solid blue;*/
+	position: absolute;
+	top: 169px;
+	left:50px;
+}
+
+.activity-3{
+	/*border: 1px solid red;*/
+	border-bottom: 1px dashed #ddd;
+	/*margin-top: 50px;*/
+	padding-left: 10px;
+	height: 52px;
+}
+.activity-3>p{
+	font-size: 20px;
+	font-weight: bold;
+}
+.activity-3-span1{
+	/*border: 1px solid blue;*/
+	width: 248px;
+	position: absolute;
+	top: 198px;
+	left: 50px;
+}
+.activity-3-span1:hover{
+	color: red;
+	cursor: pointer;
+}
+.activity-3-span2{
+	/*border: 1px solid blue;*/
+	position: absolute;
+	top: 220px;
+	left:50px;
+}
+
+.activity-4{
+	/*border: 1px solid red;*/
+	border-bottom: 1px dashed #ddd;
+	/*margin-top: 50px;*/
+	padding-left: 10px;
+	height: 52px;
+}
+.activity-4>p{
+	font-size: 20px;
+	font-weight: bold;
+}
+.activity-4-span1{
+	/*border: 1px solid blue;*/
+	width: 248px;
+	position: absolute;
+	top: 251px;
+	left: 50px;
+}
+.activity-4-span1:hover{
+	color: red;
+	cursor: pointer;
+}
+.activity-4-span2{
+	/*border: 1px solid blue;*/
+	position: absolute;
+	top: 272px;
+	left:50px;
+}
+
+.activity-5{
+	/*border: 1px solid red;*/
+	border-bottom: 1px dashed #ddd;
+	/*margin-top: 50px;*/
+	padding-left: 10px;
+	height: 52px;
+}
+.activity-5>p{
+	font-size: 20px;
+	font-weight: bold;
+}
+.activity-5-span1{
+	/*border: 1px solid blue;*/
+	width: 248px;
+	position: absolute;
+	top: 304px;
+	left: 50px;
+}
+.activity-5-span1:hover{
+	color: red;
+	cursor: pointer;
+}
+.activity-5-span2{
+	/*border: 1px solid blue;*/
+	position: absolute;
+	top: 325px;
+	left:50px;
+}
+
+.activity-6{
+	/*border: 1px solid red;*/
+	border-bottom: 1px dashed #ddd;
+	/*margin-top: 50px;*/
+	padding-left: 10px;
+	height: 52px;
+}
+.activity-6>p{
+	font-size: 20px;
+	font-weight: bold;
+}
+.activity-6-span1{
+	/*border: 1px solid blue;*/
+	width: 248px;
+	position: absolute;
+	top: 358px;
+	left: 50px;
+}
+.activity-6-span1:hover{
+	color: red;
+	cursor: pointer;
+}
+.activity-6-span2{
+	/*border: 1px solid blue;*/
+	position: absolute;
+	top: 380px;
+	left:50px;
+}
+
+.activity-7{
+	/*border: 1px solid red;*/
+	border-bottom: 1px dashed #ddd;
+	/*margin-top: 50px;*/
+	padding-left: 10px;
+	height: 52px;
+}
+.activity-7>p{
+	font-size: 20px;
+	font-weight: bold;
+}
+.activity-7-span1{
+	/*border: 1px solid blue;*/
+	width: 248px;
+	position: absolute;
+	top: 410px;
+	left: 50px;
+}
+.activity-7-span1:hover{
+	color: red;
+	cursor: pointer;
+}
+.activity-7-span2{
+	/*border: 1px solid blue;*/
+	position: absolute;
+	top:433px;
+	left:50px;
+}
+
+
+.footer{
+	/*border: 1px solid #ddd;*/
+	width: 300px;
+	height: 480px;
+	position: absolute;
+	left: 970px;
+	top: 2875px;
+	background-color: white;
+}
+.footer,.footer *{
+	background-color: white;
+}
+.footer-ewm{
+	border-bottom: 2px solid #ddd;
+	height: 150px;
+}
+.footer-ewm img{
+	width: 98px;
+	height: 98px;
+	padding-top: 5px;
+}
+.footer-ewm-div1,.footer-ewm-div2{
+	border: 2px solid #ddd;
+	width:110px;
+	height: 110px;
+	float: left;
+	text-align: center;
+	line-height: 110px;
+	/*margin: 10px 19px;*/
+}
+.footer-ewm-div1{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	margin-right: 15px;
+}
+.footer-ewm-div2{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	margin-left: 15px;
+}
+.footer-ewm-div1>p,.footer-ewm-div2>p{
+	/*border: 1px solid blue;*/
+	line-height: 0;
+	margin-top: -30px;
+}
+.contact{
+	/*border: 1px solid blue;*/
+	border-bottom: 2px solid #ddd;
+	height:110px;
+}
+.contact li{
+	/*border: 1px solid red;*/
+	display: inline-block;
+	width: 120px;
+	margin: 8px;
+}
+.contact-img1,.contact-img3,.contact-img4{
+	width: 17px;
+	height: 17px;
+}
+.contact-img2{
+	width: 19px;
+	height: 17px;
+}
+.contact span:hover{
+	cursor: pointer;
+}
+.contact p{
+	text-align: center;
+}
+.about{
+	border-bottom: 2px solid #ddd;
+	/*border: 1px solid blue;*/
+	height: 125px;
+}
+.about li{
+	/*border: 1px solid blue;*/
+	display: inline-block;
+	padding:3px 3.5px;
+	margin: 3px 0px;
+	font-weight: bold;
+}
+.about li:hover{
+	color: red;
+}
+.about-li2{
+	width: 40px;
+}
+.about-li1,.about-li3,.about-li4{
+	width: 70px;
+}
+.about-li1,.about-li3,.about-li2{
+	border-right: 2px solid #ddd;
+}
+.about img{
+	width: 13px;
+	height: 14px;
+}
+.about span{
+	color: #999;
+	padding:2px 0;
+}
+.about-span1:hover{
+	cursor: pointer;
+}
+.about-span2{
+	display: block;
+}
+.zuihou{
+	/*border: 1px solid blue;*/
+	height: 80px;
+}
+.zuihou li{
+	display: inline-block;
+	/*border: 1px solid red;*/
+	padding: 3px 0;
+}
+.zuihou li:hover{
+	cursor: pointer;
+}
+.zuihou-li1{
+	width: 130px;
+}
+.zuihou-li4{
+	width: 145px;
+}
+.zuihou-li5,.zuihou-li6{
+	width: 69px;
+}
+
+
+.zuiyou{
+	/*border: 1px solid red;*/
+	width: 42px;
+	height: 80px;
+	position: fixed;
+	right: 5px;
+	bottom: 210px;
+	background-color: white;
+}
+.zuiyou-ewm,.zuiyou-kefu{
+	width: 42px;
+	height: 40px;
+	/*border: 1px solid blue;*/
+	border: 1px solid #ddd;
+	background-color: white;
+}
+.zuiyou-ewm>img,.zuiyou-kefu img{
+	width: 22px;
+	height: auto;
+	margin: 8px 8px;
+}
+.zuiyou-ewm>p{
+	/*border: 1px solid red;*/
+	width: 42px;
+	height: 42px;
+	font-size: 14px;
+	line-height: 42px;
+	color: white;
+	background-color: red;
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.zuiyou-ewm:hover p{	
+	display: block;
+}
+.zuiyou-kefu>p{
+	/*border: 1px solid red;*/
+	width: 42px;
+	height: 41px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 41px;
+	text-decoration: none;
+	color: white;
+	background-color: red;
+	display: none;
+	position: absolute;
+	top: 41px;
+	left: 0px;
+}
+.zuiyou-kefu:hover p{
+	display: block;
+}
+.zuiyou-ewm-tanchukuang{
+	width: 350px;
+	height: 210px;
+	/*border: 1px solid red;*/
+	position: relative;
+	bottom:60px;
+	right:360px;
+	display: none;
+	/*弹出框是在二维码里面包裹
+	所以浮动会影响到客服的里面 */
+	overflow: hidden;
+}
+.zuiyou-ewm:hover{
+	cursor: pointer;
+}
+.zuiyou-ewm:hover div{	
+	display: block;
+}
+.zuiyou-ewm1,.zuiyou-ewm2{
+	border: 1px solid #ddd;
+	width: 150px;
+	height: 180px;
+	float: left;
+	margin:0 8px;
+	position: relative;
+	top: 18px;
+	left: 5px;
+}
+/*.zuiyou-ewm2{
+	overflow: hidden;
+}*/
+.zuiyou-ewm1>*,.zuiyou-ewm2>*{
+	display: block;
+}
+.zuiyou-ewm1>img,.zuiyou-ewm2>img{
+	width: 120px;
+	height: 120px;
+}
+.zuiyou-ewm1>img,.zuiyou-ewm2>img{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.zuiyou-ewm1>span{
+	position: absolute;
+	bottom: 5px;
+	left: 38px;
+}
+.zuiyou-ewm2>span{
+	position: absolute;
+	bottom: 5px;
+	left: 50px;
+}
